@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=2.45
+Type=Application
+Name=Flutter Calculator
+GenericName=Calculator
+Exec=flutter-calculator
+MimeType=applications/khd
+Icon=${SNAP}/meta/gui/flutter-calculator.png
+Terminal=false
+Path=/usr/bin/
+Categories=Utility;
+StartupNotify=true

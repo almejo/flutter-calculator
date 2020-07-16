@@ -1,0 +1,21 @@
+name: flutter-calculator
+version: 1.0.0
+summary: A simple Flutter Calculator
+description: |
+  A simple calculator written using dart and flutter.
+confinement: strict
+base: core18
+grade: stable
+
+apps:
+  flutter-calculator:
+    command: flutter_calculator
+    extensions: [flutter-master]
+    plugs:
+      - network
+
+parts:
+  flutter-calculator:
+    source: .
+    plugin: flutter
+    flutter-target: lib/main.dart
